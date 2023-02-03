@@ -1,11 +1,9 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   border: 0;
-
 }
 img {
   width: 40vw;
@@ -22,7 +20,7 @@ header {
   border-radius: 0 0 15rem 15rem;
 }
 .container {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   width: 70vw;
   height: 50vh;
   display: flex;
@@ -49,4 +47,26 @@ button {
   margin-top: 2rem;
   font-size: 1.3rem;
   border-radius: 1rem;
+}
+@media screen and (max-width: 600px) {
+  body {
+    height: 100%;
+  }
+  img {
+    width: 25vw;
+    height: 12vh;
+    border-radius: 50%;
+  }
+  header {
+    padding: 2rem;
+    height: 3vh;
+  }
+  .container {
+    font-size: 1.2rem;
+    max-height: 100%;
+  }
+  button {
+    width: 7rem;
+    height: 3rem;
+  }
 }
